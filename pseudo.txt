@@ -1,0 +1,28 @@
+1) For each value in statements list
+2) Split value by period
+    1) If value from statement ends in period, the last split value is a path
+      1) remove last split value
+      2) if length of split value is 1
+        1) Search through classes for the object using keyword
+        2) If object is empty, it is an empty class
+          1) append empty list to output
+        3) if object is dict
+          1) sort and append top 5 keys to output
+        4) If object is list
+          1) sort and append top 5 values to output
+      3) if length of split value is more than 1. eg "Order.allocations.". It is an polymorphic type
+        1) Append empty list in output
+    2) If value from statements does not end in period, the last split value is a parameter to compare with
+      1) If length of split value is 2
+        1) Search thourgh classes for the object using the second last split value as keyword
+        2) If object is empty, it is an empty class
+          1) append empty list to output
+        3) If object is dict
+          1) get all keys that matches the parameter
+          2) sort and append to output
+        4) if object is list
+          1) get all value that matches the paremeter
+          2) sort and append to output
+      2) If length of split value is more than 2. It is a polymorphic type
+       1) append empty list in output
+          

@@ -63,7 +63,7 @@ class TestMethod(unittest.TestCase):
 
 if __name__ == '__main__':
   unittest.main()
-  # print("Running Test...")
-  # actual = getNextProbableWords(classes=classDefinitions, statements=statements)
-  # print(actual)
-  # print("Test completed.")
+  #print("Running Test...")
+  #actual = getNextProbableWords(classes=classDefinitions, statements=statements)
+  #print(actual)
+  #print("Test completed.")

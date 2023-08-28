@@ -1,6 +1,6 @@
 1) In the case where a parameter is provided. 'Most probable' refers to how similar word is to the provided parameter, where similarity is determined by the number of alphebats and position of said alphebat matched.
 
-2) All logic must be run from the function "getNextProbableWords", however, addition functions may be created if it is called from the function "getNextProbableWords".
+2) Additional functions may be created
 
 3) No other imports should be made
 
