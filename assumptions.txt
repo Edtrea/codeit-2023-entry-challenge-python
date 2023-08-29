@@ -1,4 +1,4 @@
-1) In the case where a parameter is provided. 'Most probable' refers to how similar word is to the provided parameter, where similarity is determined by the number of alphebats and position of said alphebat matched.
+1) In the case where a parameter is provided. 'Most probable' refers to whether a word starts with the parameter provided sorted in alphebatical order. Words that do not start with the parameter given are discarded
 
 2) Additional functions may be created
 
@@ -8,6 +8,4 @@
 
 5) No other .py files should be created. All code should be in main.py
 
-6) A list of strings is assumed to be polymorphic type as long as the first string are found to be a key in te list of classes.
-
-7) Compounding assumption (6) ALL string in polymorphic type are assumed to always be found in the provided list of classes 
+6) A list of strings is assumed to be polymorphic type as long as there are more than 1 word provided in the statement disregarding parameter. As only polymorphic types would refer to values inside class
